@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: azure;
+
+}
+
+nav{
+    margin-left: 25%;
+    height: 50px;
+    width: 50%;
+}
+.bnt-home{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+nav ul a{
+    text-decoration: none;
+    color: BLACK;
+}
+nav ul a:hover{
+    text-decoration: overline;
+  transform: scale(1.1);
+  animation: efeito-y 1s ease-out  infinite;
+  color: black;
+}
+nav ul li{
+    margin-left: 50px;
+    margin-top: 20px; 
+}
+.conteudo-quemSomos{
+    height: 400px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px;
+    display: flex; 
+
+}
+.foto-logo{
+    height: 400px;
+    width: 50%;
+    background-image: url(imagens/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: bounceInLeft ;
+    animation-delay: 0s;
+    animation-duration: 1s;
+   
+}
+.foto-logo-txt{
+    height: 400px;
+    width: 50%;
+    text-align: center;
+   
+} 
+.foto-logo-txt h2{
+    margin-top: 40px;
+    /* animation: efeito-x 5s ease-out forwards ;  */
+}
+.foto-logo-txt h4{
+    margin-top: 30px;
+    text-align: left;
+    
+}
+#h4-1{
+    animation: bounceInRight;
+    animation-delay: 0s;
+    animation-duration: 2s;
+}
+#h4-2{
+    animation: bounceInRight;
+    animation-delay: 0s;
+    animation-duration: 3s;
+}
+#h4-3{
+    animation: bounceInRight;
+    animation-delay: 0s;
+    animation-duration: 4s;
+}
+
+.quemSomos-rodape{
+    height: 60px;
+    width: 90%; 
+    margin-left: 5%;
+    margin-top: 30px;
+
+}
+
+.quemSomos-rodape> h1{
+    color:black;
+    text-align: center;
+    animation: efeito-x 3s ease-out;
+    width: 80%;
+    margin-left: 10%;    
+}
+
+.topo-OqueFazemos{
+    width: 80%;
+    height: 60px;
+    margin-top: 210px;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.topo-OqueFazemos h1{
+    animation: efeito-x 3s ease-out ; 
+}
+
+.conteudo-OqueFazemos1{
+    height: 500px;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    margin-top: 40px;
+    text-align: center;
+}
+.OqueFazemos-box1{
+    height: 100%;
+    width: 100%;
+    
+}
+.OqueFazemos-box2{
+    height: 100%;
+    width: 100%;
+
+}
+
+.conteudo-OqueFazemos2{
+    height: 500px;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    margin-top: 100px;
+    text-align: center;
+}
+.OqueFazemos-box3{
+    height: 100%;
+    width: 50%;
+}
+.OqueFazemos-box4{
+    height: 100%;
+    width: 50%;
+}
+.sobre{
+    margin-top: 60px;
+    height: 600px;
+    width: 80%;
+    margin-left: 10%;
+    background-color: blue;
+}
+
+.contato{
+    margin-top: 60px;
+    height: 600px;
+    width: 80%;
+    margin-left: 10%;
+    background-color: black;
+}
+
+footer{
+    width: 80%;
+    height: 200px;
+    margin-left: 10%;
+    background-color: grey;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+footer .box-footer1{
+    height: 100%;
+    width: 30%;
+    background-color: brown;
+}
+
+footer .box-footer2{
+    height: 100%;
+    width: 30%;
+    background-color: brown;
+}
+
+footer .box-footer3{
+    height: 100%;
+    width: 30%;
+    background-color: brown;
+}
+
+
+
+
+@keyframes efeito-y {
+    0%{
+        transform: translateY(0px);
+
+    }
+    25%{
+        transform: translateY(-5px);
+
+    }
+    50%{
+        transform: translateY(5px);
+
+    }
+    100%{
+        transform: translateY(0px);
+
+    }
+}
+@keyframes efeito-x{
+    0%{
+        transform: translateX(10px);
+    }
+    25%{
+        transform: translateX(-10px);
+    }
+    50%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
