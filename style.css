@@ -123,40 +123,80 @@ nav ul li{
 }
 
 .conteudo-OqueFazemos1{
-    height: 500px;
+    height: 400px;
     width: 90%;
     margin-left: 5%;
     display: flex;
-    margin-top: 40px;
+    margin-top: 130px;
     text-align: center;
 }
 .OqueFazemos-box1{
     height: 100%;
-    width: 100%;
+    width: 90%;
+}
+
+.OqueFazemos-box1 p{
+    text-align: left;;
+}
+.OqueFazemos-box1:hover{
+    box-shadow: 2px 4px 4px 2px grey;
+}
+ .OqueFazemos-contato{
+    height: 30px;
+    width: 40%;
+    background-color: aqua; 
+    margin-top: 60px;
+    margin-left: 25%;
+    border-radius: 30px;
     
 }
+.OqueFazemos-contato p{
+    text-align: center;
+    margin-top: 30px;
+    height: 100%;
+    width: 80%;
+    margin-left: 20px;
+    background-color: antiquewhite;
+    
+
+}
+
 .OqueFazemos-box2{
     height: 100%;
-    width: 100%;
-
+    width: 90%;
+}
+.OqueFazemos-box2:hover{
+    box-shadow: 2px 4px 4px 2px grey;
 }
 
 .conteudo-OqueFazemos2{
-    height: 500px;
+    height: 400px;
     width: 90%;
     margin-left: 5%;
     display: flex;
-    margin-top: 100px;
+    margin-top: 60px;
     text-align: center;
+    
 }
 .OqueFazemos-box3{
     height: 100%;
     width: 50%;
 }
+.OqueFazemos-box3:hover{
+    box-shadow: 2px 4px 4px 2px grey;
+}
+
 .OqueFazemos-box4{
     height: 100%;
     width: 50%;
 }
+.OqueFazemos-box4:hover{
+    box-shadow: 2px 4px 4px 2px grey;
+}
+
+
+
+
 .sobre{
     margin-top: 60px;
     height: 600px;
@@ -170,7 +210,6 @@ nav ul li{
     height: 400px;
     width: 80%;
     margin-left: 10%;
-    box-shadow: 1px 5px 5px 5px grey;
     display: flex;
     margin-bottom: 10px;
    
