@@ -3,27 +3,40 @@
     border: 0;
     margin: 0;
     box-sizing: border-box;
+
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 html{
     scroll-behavior: smooth;
 }
 body{
     font-family: 'Courier New', Courier, monospace;
-    background-color: azure;
+    background-color: #1b2d33;
+    color: #f7f7f7;
+    
 
-}
+ }
+  .nav-fixo{
+   
+    width: 100%;
+    position: fixed;
+    margin-top: -3%;
+    z-index: 1000;
+        
+}   
 
 nav{
-    margin-left: 25%;
-    height: 50px;
-    width: 50%;
+   z-index: 1000;
+   width: 90%;
+   height: 70px;
+   margin-left: 5%;
+   position: fixed; 
+   background-color: #18292f; 
+   box-shadow: 0px 2px 0px #1b2d33;
+   padding-top: 12px;
+   
 }
-.bnt-home{
-    background-color: black;
-    height: 100px;
-    width: 100%;
-    border-radius: 50%;
-}
+
 
 nav ul{
     display: flex;
@@ -32,28 +45,38 @@ nav ul{
 }
 nav ul a{
     text-decoration: none;
-    color: BLACK;
+    color: #f7f7f7;
+    cursor: pointer;
+    
+  
 }
 nav ul a:hover{
-    text-decoration: overline;
+  text-decoration: overline;
   transform: scale(1.1);
-  animation: efeito-y 1s ease-out  infinite;
-  color: black;
+  animation: efeito-nav 1s ease-out both;
+  color: #73cc80;
+  
+ 
 }
 nav ul li{
     margin-left: 50px;
     margin-top: 20px; 
+
+    
 }
 .conteudo-quemSomos{
-    height: 400px;
+    height: 550px;
     width: 90%;
     margin-left: 5%;
     margin-top: 30px;
     display: flex; 
+    background-color: #18292f;
+    
+
 
 }
 .foto-logo{
-    height: 400px;
+    height: 520px;
     width: 50%;
     background-image: url(imagens/logo.png);
     background-repeat: no-repeat;
@@ -69,51 +92,57 @@ nav ul li{
     text-align: center;
    
 } 
-.foto-logo-txt h2{
-    margin-top: 40px;
-    /* animation: efeito-x 5s ease-out forwards ;  */
-}
-.foto-logo-txt h4{
-    margin-top: 30px;
+
+.foto-logo-txt p{
+    margin-top: 68px;
     text-align: left;
     
+    
 }
-#h4-1{
-    animation: bounceInRight;
+
+.p-1{
+    animation: backInRight;
     animation-delay: 0s;
-    animation-duration: 2s;
+    animation-duration: 1s;
+    /* margin-top: 10px; */
+    
 }
-#h4-2{
-    animation: bounceInRight;
+.p-2{
+    animation: backInRight;
     animation-delay: 0s;
-    animation-duration: 3s;
+    animation-duration: 1.2s;
+    
 }
-#h4-3{
-    animation: bounceInRight;
+.p-3{
+    animation: backInRight;
     animation-delay: 0s;
-    animation-duration: 4s;
+    animation-duration: 1.3s;
+   
 }
 
 .quemSomos-rodape{
-    height: 60px;
+    height: 100px;
     width: 90%; 
     margin-left: 5%;
-    margin-top: 30px;
+     background-color: #18292f; 
 
 }
 
-.quemSomos-rodape> h1{
-    color:black;
+.quemSomos-rodape> h2{
+    color: #f7f7f7;
     text-align: center;
     animation: efeito-x 3s ease-out;
     width: 80%;
-    margin-left: 10%;    
+    height: 50px;
+    margin-left: 10%;   
+    font-weight: 400;
+   
 }
 
 .topo-OqueFazemos{
     width: 80%;
     height: 60px;
-    margin-top: 210px;
+    margin-top: 150px;
     text-align: center;
     margin-left: 10%;
 }
@@ -122,96 +151,94 @@ nav ul li{
     animation: efeito-x 3s ease-out ; 
 }
 
-.conteudo-OqueFazemos1{
+.conteudo-OqueFazemos{
     height: 400px;
     width: 90%;
     margin-left: 5%;
-    display: flex;
-    margin-top: 130px;
+    margin-top: 60px; 
     text-align: center;
-}
-.OqueFazemos-box1{
-    height: 100%;
-    width: 90%;
-}
-
-.OqueFazemos-box1 p{
-    text-align: left;;
-}
-.OqueFazemos-box1:hover{
-    box-shadow: 2px 4px 4px 2px grey;
-}
- .OqueFazemos-contato{
-    height: 30px;
-    width: 40%;
-    background-color: aqua; 
-    margin-top: 60px;
-    margin-left: 25%;
-    border-radius: 30px;
+     /* background-color: #18292f;  */
+    background-image: url(imagens/img-sobre1.jpg);
+    background-repeat: none;
+    background-position: center;
     
 }
-.OqueFazemos-contato p{
-    text-align: center;
-    margin-top: 30px;
+.OqueFazemos-img{
     height: 100%;
-    width: 80%;
-    margin-left: 20px;
-    background-color: antiquewhite;
+    width: 100%;
+    background-color: rgba(24,41,47,0.7);
+    display: inline-flex;
     
-
+   
 }
-
-.OqueFazemos-box2{
-    height: 100%;
-    width: 90%;
-}
-.OqueFazemos-box2:hover{
-    box-shadow: 2px 4px 4px 2px grey;
-}
-
-.conteudo-OqueFazemos2{
-    height: 400px;
-    width: 90%;
-    margin-left: 5%;
-    display: flex;
-    margin-top: 60px;
-    text-align: center;
-    
-}
-.OqueFazemos-box3{
+.OqueFazemos-img-esquerda{
     height: 100%;
     width: 50%;
+    
+    /* background-color: black; */
 }
-.OqueFazemos-box3:hover{
-    box-shadow: 2px 4px 4px 2px grey;
+.OqueFazemos-img-esquerda h1{
+    text-align: center;
+    margin-top: 25%;
+    margin-bottom: 1%;
+    font-weight: 400;
+}
+.OqueFazemos-img-esquerda a{
+    color: #73cc80;
+    text-decoration: none;
+}
+.OqueFazemos-img-esquerda a:hover{
+    text-decoration: underline;
+   
+}
+.OqueFazemos-img-esquerda h3{
+    margin-left: 16%;
+    right: 10%;
+    width: 30%;
 }
 
-.OqueFazemos-box4{
+
+.OqueFazemos-img-direita{
     height: 100%;
     width: 50%;
+
+} 
+
+.OqueFazemos-img-direita ul{
+    height: 100%;
+    list-style: none;
+    padding-top: 10%;
 }
-.OqueFazemos-box4:hover{
-    box-shadow: 2px 4px 4px 2px grey;
+.OqueFazemos-img-direita li{
+   padding: 15px;
+   color: #f7f7f7;
+   
+}
+.OqueFazemos-img-direita h2{
+    font-weight: 400;
 }
 
 
 
 
 .sobre{
-    margin-top: 60px;
+    margin-top: 60px; 
     height: 600px;
-    width: 80%;
-    margin-left: 10%;
-    background-color: blue;
+    width: 90%;
+    margin-left: 5%;
+    background-color: #18292f;
 }
 
 .contato{
-    margin-top: 60px;
+    margin-top: 60px; 
     height: 400px;
-    width: 80%;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 5%;
     display: flex;
     margin-bottom: 10px;
+    margin-bottom: 20px;
+    background-color:  #18292f ;
+    color: #f7f7f7;
    
 }
 .contato-esquerda{
@@ -221,12 +248,17 @@ nav ul li{
 }
 .contato-esquerda h1{
     margin-top: 50px;
+    font-weight: 400;
+}
+.contato-esquerda h3{
+    font-weight: 400;
 }
 .icons{
-    height: 15%;
+    height: 18%;
     width: 100%;
     margin-top: 80px;
     display: flex;
+    
 }
 .icons .face-icon{
     height: 100%;
@@ -236,7 +268,7 @@ nav ul li{
 .icons .face-icon:hover{
     height: 100%;
     width: 25%;
-    animation: efeito-y 2s ease-out  infinite;
+    animation: efeito-icons 2s ease-out  infinite;
 }
 .icons .whats-icon{
     height: 100%;
@@ -245,7 +277,7 @@ nav ul li{
 .icons .whats-icon:hover{
     height: 100%;
     width: 25%;
-    animation: efeito-y 2s ease-out  infinite;
+    animation: efeito-icons 2s ease-out  infinite;
 }
 .icons .github-icon{
     height: 100%;
@@ -254,7 +286,7 @@ nav ul li{
 .icons .github-icon:hover{
     height: 100%;
     width: 25%;
-    animation: efeito-y 2s ease-out  infinite;
+    animation: efeito-icons 2s ease-out  infinite;
 }
 .icons .linkedin-icon{
     height: 100%;
@@ -263,7 +295,7 @@ nav ul li{
 .icons .linkedin-icon:hover{
     height: 100%;
     width: 25%;
-    animation: efeito-y 2s ease-out  infinite;
+    animation: efeito-icons 2s ease-out  infinite;
 }
 
 
@@ -273,17 +305,37 @@ nav ul li{
 }
 
 
-@keyframes efeito-y {
+@keyframes efeito-nav {
     0%{
         transform: translateY(0px);
 
     }
     25%{
-        transform: translateY(-5px);
+        transform: translateY(-1px);
 
     }
     50%{
-        transform: translateY(5px);
+        transform: translateY(1px);
+
+    }
+    100%{
+        transform: translateY(0px);
+
+    }
+}
+
+
+@keyframes efeito-icons {
+    0%{
+        transform: translateY(0px);
+
+    }
+    25%{
+        transform: translateY(-10px);
+
+    }
+    50%{
+        transform: translateY(0px);
 
     }
     100%{
@@ -304,4 +356,17 @@ nav ul li{
     100%{
         transform: translateX(0px);
     }
+}
+
+
+::-webkit-scrollbar{
+    width: 25px;
+}
+::-webkit-scrollbar-track{
+    background-color: #18292f;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #73cc80;
+    border-radius: 10px;
+
 }
