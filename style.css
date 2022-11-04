@@ -218,15 +218,42 @@ nav ul li{
     font-weight: 400;
 }
 
-
-
-
 .sobre{
     margin-top: 60px; 
     height: 600px;
     width: 90%;
     margin-left: 5%;
     background-color: #18292f;
+}
+.sobre-box{
+    height: 50%;
+    width: 100%;
+}
+.sobre-box h1{
+    padding-top: 30px;
+    padding-left: 30px;
+    font-weight: 400;
+    color: #73cc80;
+}
+.sobre-box p{
+    padding-top: 30px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.sobre-box span{
+    color: #73cc80;
+}
+.sobre-box a{
+    text-decoration: none;
+    color: #73cc80;
+}
+.sobre-box a:hover{
+    text-decoration: underline;
+}
+.sobre-box h2{
+    padding-top: 100px;
+    padding-left: 45%;
 }
 
 .contato{
