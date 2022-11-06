@@ -394,6 +394,6 @@ nav ul li{
 }
 ::-webkit-scrollbar-thumb{
     background-color: #73cc80;
-    border-radius: 10px;
+    border-radius: 2px;
 
 }
