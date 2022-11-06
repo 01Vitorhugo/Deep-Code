@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1b2d33;
+    color: #f7f7f7;
+ }
+ .nav-fixo{
+   
+    width: 100%;
+    position: fixed;
+    margin-top: -3%;
+    z-index: 1000;
+        
+}   
+
+nav{
+   z-index: 1000;
+   width: 90%;
+   height: 70px;
+   margin-left: 5%;
+   position: fixed; 
+   background-color: #18292f; 
+   box-shadow: 0px 2px 0px #1b2d33;
+   padding-top: 12px;
+   
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+nav ul a{
+    text-decoration: none;
+    color: #f7f7f7;
+    cursor: pointer;
+    
+  
+}
+nav ul a:hover{
+  text-decoration: overline;
+  transform: scale(1.1);
+  animation: efeito-nav 1s ease-out both;
+  color: #73cc80;
+  
+ 
+}
+nav ul li{
+    margin-left: 50px;
+    margin-top: 20px; 
+
+    
+}
+ .conteudo{
+    height: 800px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px;
+    display: flex; 
+    background-color: #18292f;
+ }
+ .logo-historia{
+    width: 100%;
+    height: 80%;
+    background-image: url(imagens/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+ }
+
+
+
+
+
+
+
+ ::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color: #18292f;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #73cc80;
+    border-radius: 2px;
+
+}
