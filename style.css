@@ -104,19 +104,21 @@ nav ul li{
     animation: backInRight;
     animation-delay: 0s;
     animation-duration: 1s;
-    /* margin-top: 10px; */
+    color: #f7f7f7;
     
 }
 .p-2{
     animation: backInRight;
     animation-delay: 0s;
     animation-duration: 1.2s;
+    color: #f7f7f7;
     
 }
 .p-3{
     animation: backInRight;
     animation-delay: 0s;
     animation-duration: 1.3s;
+    color: #f7f7f7;
    
 }
 
