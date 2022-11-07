@@ -49,9 +49,9 @@ nav ul a{
   
 }
 nav ul a:hover{
-  text-decoration: overline;
-  transform: scale(1.1);
-  animation: efeito-nav 1s ease-out both;
+    text-decoration: overline;
+    transform: scale(1.1);
+    animation: efeito-nav 1s ease-out both;
   color: #73cc80;
   
  
@@ -62,7 +62,7 @@ nav ul li{
 
     
 }
- .conteudo{
+ .historia{
     height: 800px;
     width: 90%;
     margin-left: 5%;
@@ -78,11 +78,46 @@ nav ul li{
     background-position: center;
     
  }
+ .portifolio{
+    height: 800px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px;
+    display: flex; 
+    background-color: #18292f;
 
 
+ }
 
+ .membros{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+ }
+ 
 
+ 
+ 
+ .card{
+    height: 40%;
+    background-color: transparent;
+    margin-top: 10px;
+    
+ }
+ .card a{
+    color: #73cc80;
+    text-decoration: none;
+ }
+ .card a:hover{
+    text-decoration: underline;
 
+ }
+ 
+
+ 
 
 
  ::-webkit-scrollbar{
@@ -96,3 +131,23 @@ nav ul li{
     border-radius: 2px;
 
 }
+
+@keyframes efeito-nav {
+    0%{
+        transform: translateY(0px);
+
+    }
+    25%{
+        transform: translateY(-1px);
+
+    }
+    50%{
+        transform: translateY(1px);
+
+    }
+    100%{
+        transform: translateY(0px);
+
+    }
+}
+
