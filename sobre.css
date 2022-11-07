@@ -14,110 +14,134 @@ body{
     background-color: #1b2d33;
     color: #f7f7f7;
  }
+
  .nav-fixo{
-   
-    width: 100%;
-    position: fixed;
-    margin-top: -3%;
-    z-index: 1000;
-        
+   width: 100%;
+   position: fixed;
+   margin-top: -3%;
+   z-index: 1000;
+       
 }   
 
 nav{
-   z-index: 1000;
-   width: 90%;
-   height: 70px;
-   margin-left: 5%;
-   position: fixed; 
-   background-color: #18292f; 
-   box-shadow: 0px 2px 0px #1b2d33;
-   padding-top: 12px;
-   
+  z-index: 1000;
+  width: 90%;
+  height: 70px;
+  margin-left: 5%;
+  position: fixed; 
+  background-color: #18292f; 
+  box-shadow: 0px 2px 0px #1b2d33;
+  padding-top: 12px;
+  
 }
 
 
 nav ul{
-    display: flex;
-    list-style: none;
-    justify-content: center;
+   display: flex; 
+   list-style: none;
+   justify-content: center;
+
+  
 }
 nav ul a{
-    text-decoration: none;
-    color: #f7f7f7;
-    cursor: pointer;
-    
-  
+   text-decoration: none;
+   color: #f7f7f7;
+   cursor: pointer;
+   
+
 }
 nav ul a:hover{
-    text-decoration: overline;
-    transform: scale(1.1);
-    animation: efeito-nav 1s ease-out both;
-  color: #73cc80;
-  
- 
+   color: #8ae998;
+   text-decoration: overline;
+
 }
 nav ul li{
-    margin-left: 50px;
-    margin-top: 20px; 
+   margin-left: 50px;
+   margin-top: 20px; 
 
-    
+   
+
 }
+
  .historia{
-    height: 800px;
+    height: 1300px;
     width: 90%;
     margin-left: 5%;
     margin-top: 30px;
-    display: flex; 
+    padding-top: 30px;
     background-color: #18292f;
  }
  .logo-historia{
     width: 100%;
-    height: 80%;
+    height: 25%;
     background-image: url(imagens/logo.png);
     background-repeat: no-repeat;
     background-position: center;
     
  }
- .portifolio{
-    height: 800px;
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 30px;
-    display: flex; 
-    background-color: #18292f;
-
-
- }
-
- .membros{
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 30px;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-around;
+ .conteudo-historia{
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    text-align: center;
+    padding-top: 40px;
+     /* background-color: #73cc80;    */
  }
  
-
- 
- 
- .card{
-    height: 40%;
-    background-color: transparent;
-    margin-top: 10px;
-    
+ .conteudo-historia h1{
+    font-weight: 400;
+    color: #f7f7f7;
  }
- .card a{
+ .conteudo-historia h3{
+    padding-top: 60px;
+    text-align: left;
     color: #73cc80;
-    text-decoration: none;
  }
- .card a:hover{
-    text-decoration: underline;
-
+ .conteudo-historia h4{
+    color: #73cc80;
+    padding-top: 30px;
  }
- 
+ .conteudo-historia .p-top{
+    padding-top: 30px;
+ }
+ .conteudo-historia p{
+    text-align: center;
+    color: #f7f7f7;
+    padding: 10px;
+ }
 
- 
+  .conteudo-historia2{
+    margin-top: 100px;
+    height: 450px;
+    width: 100%;
+     /* background-color: #73cc80;    */
+    display: flex; 
+
+} 
+.imagem-criador{
+   width: 30%;
+   height: 300px;
+   background-color: #f7f7f7;
+}
+.imagem-criador p{
+   color: #73cc80;
+   text-align: center;
+   padding-top: 15px;
+}
+.conteudo-criador{
+   height: 300px;
+   width: 70%;
+   text-align: left;
+  
+}
+.conteudo-criador p{
+   padding-top: 20px;
+   padding-left: 30px;
+}
+.conteudo-criador .p-criador{
+   color: #73cc80;
+   text-align: center;
+}
 
 
  ::-webkit-scrollbar{
@@ -131,23 +155,3 @@ nav ul li{
     border-radius: 2px;
 
 }
-
-@keyframes efeito-nav {
-    0%{
-        transform: translateY(0px);
-
-    }
-    25%{
-        transform: translateY(-1px);
-
-    }
-    50%{
-        transform: translateY(1px);
-
-    }
-    100%{
-        transform: translateY(0px);
-
-    }
-}
-
