@@ -16,6 +16,9 @@ sr.reveal('#contato', {duration: 1500});
 sr.reveal('#sobre', {duration: 1500});
 
 
+sr.reveal('#historia', {duration: 2000});
+
+
 
 
 
