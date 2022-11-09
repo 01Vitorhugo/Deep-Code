@@ -250,6 +250,18 @@ nav ul li{
     padding-left: 45%;
 }
 
+/* cases */
+
+.case{
+    margin-top: 60px; 
+    height: 700px;
+    width: 90%;
+    margin-left: 5%;
+    background-color: #18292f;
+    
+
+}
+
 .contato{
     margin-top: 60px; 
     height: 400px;
