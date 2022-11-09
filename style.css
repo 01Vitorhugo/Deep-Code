@@ -74,9 +74,10 @@ nav ul li{
 .foto-logo{
     height: 520px;
     width: 50%;
-    background-image: url(imagens/logo.png);
+    background-image: url(imagens/Logo\ Deep\ Code.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 850px;
     animation: bounceInLeft ;
     animation-delay: 0s;
     animation-duration: 1s;
