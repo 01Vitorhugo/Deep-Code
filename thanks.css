@@ -1,0 +1,46 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1b2d33;
+    font-family: 'Courier New', Courier, monospace;
+    color: #f7f7f7;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteudo{
+    height: 900px;
+    width: 80%;
+}
+.topo{
+    height: 50%;
+    width: 100%;
+    background-image: url(imagens/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 600px;
+}
+.baixo{
+    height: 50%;
+    width: 100%;
+}
+
+.baixo h1{
+    text-align: center;
+    padding-top: 60px;
+}
+.baixo h2{
+    text-align: center;
+    padding-top: 50px;
+}
+a{
+    text-decoration: none;
+    color: #f7f7f7;
+}
+
