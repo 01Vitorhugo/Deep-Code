@@ -3,11 +3,11 @@
     border: 0;
     margin: 0;
     box-sizing: border-box;
-
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 html{
     scroll-behavior: smooth;
+    
 }
 body{
     font-family: 'Courier New', Courier, monospace;
@@ -262,9 +262,8 @@ nav ul li{
     width: 90%;
     margin-left: 5%;
     background-color: #18292f;
-    
-
 }
+
 
 
 
