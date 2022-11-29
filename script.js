@@ -1,4 +1,5 @@
 
+// Efeito de scroll no site 
 const sr = ScrollReveal({ 
     reset: true});
 
@@ -18,6 +19,7 @@ sr.reveal('#sobre', {duration: 1500});
 
 sr.reveal('#historia', {duration: 2000});
 
+//
 
 
 
