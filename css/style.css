@@ -77,17 +77,20 @@ nav ul li{
     margin-top: 30px;
     display: flex; 
     background-color: #0d0221;
+    overflow: hidden;
 }
 .foto-logo{
     height: 620px;
     width: 50%;
-    background-image: url(imagens/logo.png);
+    background-image: url(/imagens/logo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 850px;
     animation: bounceInLeft ;
     animation-delay: 0s;
     animation-duration: 1s;
+    
+    
 
 }
 .foto-logo-txt{
@@ -109,21 +112,21 @@ nav ul li{
 .p-1{
     animation: backInRight;
     animation-delay: 0s;
-    animation-duration: 1s;
+    animation-duration: 1s; 
     color: #2de2e6;
     
 }
 .p-2{
     animation: backInRight;
     animation-delay: 0s;
-    animation-duration: 1.2s;
+    animation-duration: 1.2s; 
     color: #2de2e6;
     
 }
 .p-3{
     animation: backInRight;
     animation-delay: 0s;
-    animation-duration: 1.3s;
+    animation-duration: 1.3s; 
     color: #2de2e6;
    
 }
@@ -132,19 +135,19 @@ nav ul li{
     height: 100px;
     width: 90%; 
     margin-left: 5%;
-     background-color: #0d0221; 
-
+    background-color: #0d0221; 
 }
 
 .quemSomos-rodape> h2{
     color: #2de2e6;
     text-align: center;
-    animation: efeito-x 3s ease-out;
+    /* animation: efeito-x 3s ease-out; */
     width: 80%;
     height: 50px;
     margin-left: 10%;   
     font-weight: 400;
     font-family: 'RetroFont';
+   
    
 }
 
@@ -166,16 +169,11 @@ nav ul li{
     margin-left: 5%;
     margin-top: 60px; 
     text-align: center;
-    background-image: url(imagens/img-sobre1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
 }
 .OqueFazemos-img{
     height: 100%;
     width: 100%;
-    background-color: rgba(13,02,33,0.7);
+    background-color: rgba(13,02,33,0.8);
     display: inline-flex;
 }
 .OqueFazemos-img-esquerda{
@@ -183,12 +181,26 @@ nav ul li{
     width: 50%;
     /* background-color: black; */
 }
+.OqueFazemos-img-esquerda figure {
+    height: 150px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #2de2e6;  */
+    margin-top: 50px;
+}
+.OqueFazemos-img-esquerda figure img{
+    height: 100%;
+    width: 150px;
+    
+}
 .OqueFazemos-img-esquerda h1{
     text-align: center;
-    margin-top: 25%;
+    margin-top: 5%;
     margin-bottom: 1%;
     font-weight: 400;
 }
+
 .OqueFazemos-img-esquerda a{
     color: #f6019d;
     text-decoration: none;
@@ -430,6 +442,7 @@ nav ul li{
 
 ::-webkit-scrollbar{
     width: 15px;
+    
 }
 ::-webkit-scrollbar-track{
     background-color: #0d0221;
@@ -437,6 +450,7 @@ nav ul li{
 ::-webkit-scrollbar-thumb{
     background-color: #f6019d;
     border-radius: 2px;
+    
 
 }
 @media (max-width: 1633px){
