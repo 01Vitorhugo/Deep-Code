@@ -11,12 +11,17 @@ html{
 }
 body{
     font-family: 'Courier New', Courier, monospace;
-    background-color: #1b2d33;
-    color: #f7f7f7;
+    background-color: #261447;
+    color: #2de2e6;
     font-size: 20px;
+    
 
 
  }
+ @font-face {
+    font-family: RetroFont;
+    src: url(/fonts/MasterDroid.ttf);
+  }
   .nav-fixo{
     width: 100%;
     position: fixed;
@@ -31,8 +36,8 @@ nav{
    height: 100px;
    margin-left: 5%;
    position: fixed; 
-   background-color: #18292f;  
-   box-shadow: 0px 2px 0px #1b2d33;
+   background-color: #261447;  
+   box-shadow: 0px 2px 0px #0d0221;
    padding-top: 25px;
    
 }
@@ -45,8 +50,9 @@ nav ul{
 }
 nav ul a{
     text-decoration: none;
-    color: #f7f7f7;
+    color: #2de2e6;
     cursor: pointer;
+    font-weight: 800;
     
   
 }
@@ -54,7 +60,7 @@ nav ul a:hover{
   text-decoration: overline;
   transform: scale(1.1);
   animation: efeito-nav 1s ease-out both;
-  color: #73cc80;
+  color: #f6019d;
   
  
 }
@@ -70,7 +76,7 @@ nav ul li{
     margin-left: 5%;
     margin-top: 30px;
     display: flex; 
-    background-color: #18292f;
+    background-color: #0d0221;
 }
 .foto-logo{
     height: 620px;
@@ -94,6 +100,7 @@ nav ul li{
 .foto-logo-txt p{
     margin-top: 75px;
     text-align: left;
+    font-size: 22px;
     
     
     
@@ -103,21 +110,21 @@ nav ul li{
     animation: backInRight;
     animation-delay: 0s;
     animation-duration: 1s;
-    color: #f7f7f7;
+    color: #2de2e6;
     
 }
 .p-2{
     animation: backInRight;
     animation-delay: 0s;
     animation-duration: 1.2s;
-    color: #f7f7f7;
+    color: #2de2e6;
     
 }
 .p-3{
     animation: backInRight;
     animation-delay: 0s;
     animation-duration: 1.3s;
-    color: #f7f7f7;
+    color: #2de2e6;
    
 }
 
@@ -125,18 +132,19 @@ nav ul li{
     height: 100px;
     width: 90%; 
     margin-left: 5%;
-     background-color: #18292f; 
+     background-color: #0d0221; 
 
 }
 
 .quemSomos-rodape> h2{
-    color: #f7f7f7;
+    color: #2de2e6;
     text-align: center;
     animation: efeito-x 3s ease-out;
     width: 80%;
     height: 50px;
     margin-left: 10%;   
     font-weight: 400;
+    font-family: 'RetroFont';
    
 }
 
@@ -167,7 +175,7 @@ nav ul li{
 .OqueFazemos-img{
     height: 100%;
     width: 100%;
-    background-color: rgba(24,41,47,0.7);
+    background-color: rgba(13,02,33,0.7);
     display: inline-flex;
 }
 .OqueFazemos-img-esquerda{
@@ -182,7 +190,7 @@ nav ul li{
     font-weight: 400;
 }
 .OqueFazemos-img-esquerda a{
-    color: #73cc80;
+    color: #f6019d;
     text-decoration: none;
 }
 .OqueFazemos-img-esquerda a:hover{
@@ -209,7 +217,7 @@ nav ul li{
 }
 .OqueFazemos-img-direita li{
    padding: 15px;
-   color: #f7f7f7;
+   color: #2de2e6;
    
 }
 .OqueFazemos-img-direita h2{
@@ -221,7 +229,7 @@ nav ul li{
     height: 600px;
     width: 90%;
     margin-left: 5%;
-    background-color: #18292f;
+    background-color: #0d0221;
 }
 .sobre-box{
     height: 50%;
@@ -231,7 +239,7 @@ nav ul li{
     padding-top: 30px;
     padding-left: 30px;
     font-weight: 400;
-    color: #73cc80;
+    color: #f6019d;
 }
 .sobre-box p{
     padding-top: 30px;
@@ -240,11 +248,11 @@ nav ul li{
 }
 
 .sobre-box span{
-    color: #73cc80;
+    color: #f6019d;
 }
 .sobre-box a{
     text-decoration: none;
-    color: #73cc80;
+    color: #f6019d;
 }
 .sobre-box a:hover{
     text-decoration: underline;
@@ -261,7 +269,7 @@ nav ul li{
     height: 700px;
     width: 90%;
     margin-left: 5%;
-    background-color: #18292f;
+    background-color: #0d0221;
 }
 
 
@@ -297,8 +305,8 @@ nav ul li{
     display: flex;
     margin-bottom: 10px;
     margin-bottom: 20px;
-    background-color:  #18292f ;
-    color: #f7f7f7;
+    background-color:  #0d0221 ;
+    color: #2de2e6;
    
 }
 .contato-esquerda{
@@ -424,10 +432,10 @@ nav ul li{
     width: 15px;
 }
 ::-webkit-scrollbar-track{
-    background-color: #18292f;
+    background-color: #0d0221;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: #73cc80;
+    background-color: #f6019d;
     border-radius: 2px;
 
 }
@@ -444,7 +452,7 @@ nav ul li{
     .sobre-box h2{
     padding-top: 60px;
     font-weight: 400;
-    color: #73cc80;
+    color: #f6019d;
     }
     .icons .face-icon{
     height: 80%;
@@ -489,7 +497,7 @@ nav ul li{
     .sobre-box h2{
         padding-top: 40px;
         font-weight: 400;
-        color: #73cc80;
+        color: #f6019d;
         }
         .icons .face-icon{
             height: 80%;
@@ -632,7 +640,7 @@ nav ul li{
         margin-left: 5%;
         margin-top: 30px;
         display: inline-block;
-        background-color: #18292f;
+        background-color: #261447;
     }
     .quemSomos-rodape h2{
 
@@ -676,7 +684,7 @@ nav ul li{
        
     }
     .OqueFazemos-img-esquerda a{
-        color: #73cc80;
+        color: #f6019d;
         text-decoration: none;
     }
     .OqueFazemos-img-esquerda a:hover{
@@ -702,7 +710,7 @@ nav ul li{
     }
     .OqueFazemos-img-direita li{
        padding-top: 10px;
-       color: #f7f7f7;
+       color: #2de2e6;
        
     }
     .OqueFazemos-img-direita h2{
