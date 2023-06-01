@@ -30,9 +30,14 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 600px;
-   
     position: relative;
 }
+.left img{
+    padding-bottom: 90px;
+    /* animation: fluter 1s ease-in-out infinite;
+    transition: 1s; */
+}
+
 .right{
   
         width: 50%;
@@ -76,6 +81,7 @@ button{
     height: 30px;
     width: 100px;
     background-color: #f6019d ;
+    border-radius: 10px;
     color : #2de2e6;
     cursor: pointer;
 }
