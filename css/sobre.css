@@ -39,6 +39,7 @@ li a{
    text-decoration: none;
    color: #f6019d;
    list-style: none;
+   padding-top: 20px;
    
 }
 li a:hover{
@@ -84,7 +85,7 @@ li {
  }
  .logo-historia{
     width: 100%;
-    height: 25%;
+    height: 100%;
     background-image: url(imagens/logo.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -204,59 +205,3 @@ li {
    border-radius: 50%;
    border: solid 5px #f6019d;
  }
-
- /* .conteudo-membros{
-   background-color: #f6019c27; 
-   width: 100%;
-   height: 500px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   overflow-y: hidden;
- }
- 
-.conteudo-membros .carousel{
-   width: 30%;
-   height: 100%;
-   transition: 1s;
-   border: solid 2px #f6019d;
-   
-}
-.conteudo-membros .carousel:hover{
-   border: solid 2px #2de2e6;
-   transition: 1s;
-}
-
-.carousel-inner{
-   background-color: aqua; 
-}
-.carousel-inner img{
-background-color: aqua; 
-   height: 500px;
-   width: 500px;
-}
-.carousel-item{
-   background-color: black;
-}
-.carousel-inner h5{
-   color: #edf2f4;
-}
-.carousel-inner p{
-   color: #edf2f4;
-}
-.carousel-caption{
-   background-color: rgba(0, 0, 0, 0.507);
-   border-radius: 15px;
-   transition: 1s;
-}
-.carousel-caption:hover{
-   background-color: rgba(0, 0, 0, 0.767);
-}
-
-.carousel-control-prev{
-   background-color:  #edf2f434;
-}
-.carousel-control-next{
-   background-color:  #edf2f431;
-} */
-
