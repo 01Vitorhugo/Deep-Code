@@ -33,18 +33,20 @@ body{
    align-items: center;
    justify-content: center;
    list-style: none;
-   padding-top: 25px;
+   
 }
 li a{
    text-decoration: none;
    color: #f6019d;
    list-style: none;
+   
 }
 li a:hover{
    color: #2de2e6;
 }
 li {
    list-style-type: none;
+   padding-top: 35px;
  }
 
 .bg-body-tertiary{
@@ -194,6 +196,7 @@ li {
  .container-fluid .row .col-4{
    /* border: #2de2e6 solid 5px; */
    height: 500px;
+   /* background-color: #0d0221; */
  }
  .container-fluid .row .col-4 img{
    height: 100%;

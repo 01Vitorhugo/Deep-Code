@@ -46,6 +46,10 @@ body{
     justify-content: space-around;
     align-items: center;
 }
+.navbar-collapse ul li{
+    padding-top: 20px;
+
+}
 .navbar-collapse ul li a{
     color: #f6019d;
 }

@@ -8,9 +8,9 @@
 }
 
 body{
-    background-color: #1b2d33;
+    background-color: #0d0221;
     font-family: 'Courier New', Courier, monospace;
-    color: #f7f7f7;
+    color: #2de2e6;
     position: relative;
     display: flex;
     align-items: center;
@@ -19,14 +19,18 @@ body{
 .conteudo{
     height: 900px;
     width: 80%;
+    background-color: #0d0221;
 }
 .topo{
     height: 50%;
     width: 100%;
-    background-image: url(imagens/logo.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 600px;
+    /* background-color: #2de2e6; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topo img{
+    height: 100%;
 }
 .baixo{
     height: 50%;
@@ -40,13 +44,13 @@ body{
 
 .baixo h2{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 a{
     text-decoration: none;
-    color: #f7f7f7;
+    color: #f6019d;
 }
 a:hover{
-    color: #73cc80;
+    color: #2de2e6;
 }
 
