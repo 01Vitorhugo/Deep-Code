@@ -20,6 +20,7 @@
 <body>
   <!-- Start menu navegation -->
   <div class="nav-fixed">
+    
     <nav class="navbar navbar-expand-lg bg-body-tertiary bg-lignt">
       <div class="container-fluid">
         <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -28,6 +29,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
+            <li>
+            <div class="logo-nav" id="logo-nav">
+              <img src="imagens/logo_12.jpg" alt=""> 
+            </div>
+          </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#sobre">QUEM-SOMOS</a>
             </li>
@@ -40,11 +46,27 @@
             <li class="nav-item">
               <a class="nav-link" href="#contato">CONTATO</a>
             </li>
+           
           </ul>
         </div>
       </div>
     </nav>
   </div>
+
+  <!-- Aparecer logo no menu -->
+  <script>
+    function verificaScroll() {
+  var elemento = document.getElementById('logo-nav');
+  var alturaJanela = window.innerHeight;
+  var alturaElemento = elemento.getBoundingClientRect().top;
+
+  if (alturaElemento < alturaJanela) {
+    elemento.classList.add('visivel');
+  }
+}
+
+window.addEventListener('scroll', verificaScroll);
+  </script>
 
   <!-- The end menu navegation -->
 
