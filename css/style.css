@@ -37,6 +37,9 @@ body{
 .visivel {
     opacity: 1;
 }
+.invi {
+    opacity: 0;
+}
 
  .logo-nav img{
     height: 90%;

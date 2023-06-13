@@ -16,7 +16,7 @@
     }
 }  */
 
-@media (max-width: 360px)  {
+/* @media (max-width: 360px)  {
     .carousel-control-prev{
         padding-top: 40px;
     }
@@ -131,10 +131,17 @@
    height: 40px;
    width: 40px;
  }
-}
+} */
 
 
 @media (max-width: 600px)  {
+    .carousel-control-prev{
+        padding-top: 40px;
+    }
+    .carousel-control-next{
+        padding-top: 40px;
+    }
+
     
     #sobre{
         
@@ -238,7 +245,7 @@
  }
 }
   
-@media (min-width:601px) and (max-width: 1400px)  {
+@media (min-width:601px) and (max-width: 1365px)  {
     
     #sobre{
         
@@ -335,6 +342,31 @@
    height: 50px;
    width: 50px;
  }
+
+}
+@media (min-width: 1366px) and (max-width: 1700px){
+    .sobre{
+        /* background-color: aqua; */
+        height: 750px;
+    }
+    .conteudo-OqueFazemos{
+        /* background-color: bisque; */
+    }
+    .OqueFazemos-img-esquerda h3{
+        /* background-color: aqua; */
+        width: 50%;
+        margin-top: 20px ;
+
+    }
+    .OqueFazemos-img-direita{
+        /* background-color: aqua; */
+        padding-top: 70px;
+    }
+    .icons #imgs{
+        /* background-color: aqua; */
+        width: 80px;
+    }
+
 
 }
   
