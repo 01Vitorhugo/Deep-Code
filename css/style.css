@@ -31,15 +31,10 @@ body{
     width: 200px;
     /* background-color: #2de2e6; */
     padding-top: 80px;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.5s;
 }
-.visivel {
-    opacity: 1;
-}
-.invi {
-    opacity: 0;
-}
+
 
  .logo-nav img{
     height: 90%;

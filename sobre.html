@@ -22,14 +22,34 @@
   <div class="nav-fixed">
     <div class="menu">
       <ul>
+        <li>
+          <div class="seta-cima" id="seta">
+            <a href=""><img src="imagens/logo_12" alt=""></a>
+         </div>
+        </li>
         <li><a href="index.html">Home</a></li>
       </ul>
     </div>
   </div>
 
+  
+  
+
+ <script>
+     window.addEventListener("scroll", function() {
+ var elemento = document.getElementById("seta");
+ var posicao = window.scrollY;
+ if (posicao > 400) {
+   elemento.style.display = "block";
+ } else {
+   elemento.style.display = "none";
+ }
+});
+ </script>
+
 
   <div class="historia">
-    <div class="center"> <img src="imagens/logo_12.jpg" width="650px" height="600px" alt=""></div>
+    <div class="center"> <img src="imagens/logo_12" width="650px" height="600px" alt=""></div>
     <div class="conteudo-historia">
       <h1 id="historia">2022 O COMEÇO</h1>
 
@@ -79,26 +99,39 @@
       <div class="row">
         <div class="col-4">
           <img src="../imagens/breno.jpeg" alt="">
+          <h3>Breno Guimarães</h3>
+          <p>Desenvolvedor Mobile</p>
         </div>
         <div class="col-4">
           <img src="../imagens/carlos.jpg" alt="">
+          <h3>Carlos Manoel</h3>
+          <p>Design</p>
         </div>
         <div class="col-4">
           <img src="../imagens/gustavo.jpeg" alt="">
+          <h3>Gustavo Henrique</h3>
+          <p>Desenvolvedor  Back-end</p>
         </div>
       </div>
       <div class="row">
         <div class="col-4">
           <img src="../imagens/henrique.jpeg" alt="">
+          <h3>Henrique Batista</h3>
+          <p>Design</p>
         </div>
         <div class="col-4">
           <img src="../imagens/igor.jpeg" alt="">
+          <h3>Igor Samuel</h3>
+          <p>Desenvolvedor Mobile</p>
         </div>
         <div class="col-4">
           <img src="../imagens/vitor.jfif" alt="">
+          <h3>Vitor Hugo</h3>
+          <p>Desenvolvedor  Front-end</p>
         </div>
       </div>
     </div>
+
 
 
 

@@ -1,0 +1,16 @@
+@media (max-width: 1700px){
+    .form-cont{
+        /* background-color: aqua; */
+        height: 630px;
+    }
+   img{
+    width: 90%;
+   }
+    .left h1{
+        /* background-color: aqua; */
+        font-size: xx-large;
+    }
+    .right button{
+        margin-top: 15px;
+    }
+}

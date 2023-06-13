@@ -18,6 +18,7 @@ body{
  .nav-fixed{
    z-index: 1000;
     width: 100%;
+    height: 200px;
     position: fixed;  
     top: 3%;
     margin-top: -2.5em;
@@ -26,7 +27,7 @@ body{
    margin: 0;
    position: relative;
    width: 100%;
-   height: 80px;
+   height: 100px;
    background-color: #261447;
    color: #f6019d;
    display: flex;
@@ -189,6 +190,7 @@ li {
    /* border: solid 2px #f6019d; */
    height: 600px;
    margin: 10px;
+   transition: 1s;
 
  }
  .container-fluid .row .col-4{
@@ -200,61 +202,42 @@ li {
    height: 100%;
    width: 100%;
    border-radius: 50%;
+   border: solid 5px #2de2e6;
+ }
+ .container-fluid .row .col-4 p{
+   text-align: center;
+   padding-top: 5px;
+ }
+ .container-fluid .row .col-4 h3{
+   text-align: center;
+   padding-top: 5px;
+ }
+ .container-fluid .row .col-4 img:hover{
+   color: #f6019d;
    border: solid 5px #f6019d;
  }
+ .container-fluid .row .col-4:hover{
+   color: #f6019d;
+   cursor: pointer;
+ }
 
- /* .conteudo-membros{
-   background-color: #f6019c27; 
-   width: 100%;
-   height: 500px;
+
+
+ .seta-cima{
+   height: 200px;
+   width: 200px;
+   /* background-color: #f6019d; */
+   position: fixed;
+   right: 80%;
+   bottom: 81%;  
+   display: none;
+}
+.seta-cima a{
    display: flex;
    justify-content: center;
    align-items: center;
-   overflow-y: hidden;
- }
- 
-.conteudo-membros .carousel{
-   width: 30%;
    height: 100%;
-   transition: 1s;
-   border: solid 2px #f6019d;
-   
 }
-.conteudo-membros .carousel:hover{
-   border: solid 2px #2de2e6;
-   transition: 1s;
+.seta-cima img{
+   height: 100%;
 }
-
-.carousel-inner{
-   background-color: aqua; 
-}
-.carousel-inner img{
-background-color: aqua; 
-   height: 500px;
-   width: 500px;
-}
-.carousel-item{
-   background-color: black;
-}
-.carousel-inner h5{
-   color: #edf2f4;
-}
-.carousel-inner p{
-   color: #edf2f4;
-}
-.carousel-caption{
-   background-color: rgba(0, 0, 0, 0.507);
-   border-radius: 15px;
-   transition: 1s;
-}
-.carousel-caption:hover{
-   background-color: rgba(0, 0, 0, 0.767);
-}
-
-.carousel-control-prev{
-   background-color:  #edf2f434;
-}
-.carousel-control-next{
-   background-color:  #edf2f431;
-} */
-

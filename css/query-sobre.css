@@ -1,8 +1,54 @@
 @media (max-width: 1700px){
+ .seta-cima{
+    height: 200px;
+    width: 200px;
+    /* background-color: #f6019d; */
+    position: fixed;
+    right: 80%;
+    bottom: 78%;  
+    display: none;
+ }
+ .seta-cima a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+ }
+ .seta-cima img{
+    height: 80%;
+ }
+ 
+    .historia{
+        /* background-color: aqua; */
+        height: 2800px;
+    }
+    .menu ul {
+        /* background-color: aqua; */
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu ul li {
+        padding-top: 10px;
+    }
+
     .imagem-criador{
-        background-color: aqua;
         height: 300px;
     }
     .imagem-criador{
         margin-top: 30px;
     }
+    .container-fluid{
+        /* background-color: aqua; */
+        height: 950px;
+    }
+    .container-fluid .row {
+        /* background-color: aqua; */
+        height: 500px;
+    }
+    .col-4{
+        height: 380px !important;
+    }
+
+}
