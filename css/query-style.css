@@ -344,10 +344,14 @@
  }
 
 }
-@media (min-width: 1366px) and (max-width: 1700px){
+@media (min-width: 1100px) and (max-width: 1300px){
     .sobre{
         /* background-color: aqua; */
         height: 750px;
+    }
+    .OqueFazemos{
+        top: 40%;
+        position: relative;
     }
     .conteudo-OqueFazemos{
         /* background-color: bisque; */
@@ -358,15 +362,48 @@
         margin-top: 20px ;
 
     }
+    figure{
+        position: relative;
+        display: flex;  
+        align-items: center;
+        justify-content: center;
+        right: 35%;
+    }
+    .OqueFazemos-img-esquerda{
+        position: relative;
+        align-items: flex-start;
+        display: flex;
+        left: 10%   ;
+        flex-direction: column;
+    }
+    .text{
+        position: relative;
+        left: 22%;
+    }
+    .OqueFazemos-img-direita{
+        position: relative;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+            }
+    figure #dif {
+        position: relative;
+        left: 40%;
+    }
     .OqueFazemos-img-direita{
         /* background-color: aqua; */
         padding-top: 70px;
     }
     .icons #imgs{
         /* background-color: aqua; */
-        width: 80px;
+        width: 90px;
+        height: 60px;
+        position: relative;
+        top: 120%;
     }
-
+    .case{
+        height: 500px;
+    }
 
 }
   
