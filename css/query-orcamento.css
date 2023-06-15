@@ -1,4 +1,9 @@
 @media (max-width: 1700px){
+   *{
+    font-weight: 900;
+
+   }
+
     .form-cont{
         /* background-color: aqua; */
         height: 630px;

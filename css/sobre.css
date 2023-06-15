@@ -1,4 +1,5 @@
 *{
+    font-weight: 900;   
     padding: 0;
     border: 0;
     margin: 0;
@@ -199,7 +200,7 @@ li {
    /* background-color: #0d0221; */
  }
  .container-fluid .row .col-4 img{
-   height: 100%;
+   height: 86  %;
    width: 100%;
    border-radius: 50%;
    border: solid 5px #2de2e6;

@@ -1,5 +1,10 @@
 @media (max-width: 1700px){
- .seta-cima{
+    *{
+        font-weight: 900;
+    
+       }
+    .seta-cima{
+
     height: 200px;
     width: 200px;
     /* background-color: #f6019d; */

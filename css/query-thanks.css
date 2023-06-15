@@ -1,4 +1,8 @@
 @media (max-width: 1700px){
+    *{
+        font-weight: 900;
+    
+       }
     .conteudo{
         /* background-color: aqua; */
         height: 760px;

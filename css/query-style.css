@@ -345,9 +345,19 @@
 
 }
 @media (min-width: 1100px) and (max-width: 1300px){
+    *{
+        font-weight: 900;
+    }
     .sobre{
         /* background-color: aqua; */
         height: 750px;
+    
+       
+    }
+    #sobre {
+        font-size: 20px;
+        margin: 50px;
+
     }
     .OqueFazemos{
         top: 40%;
@@ -396,13 +406,19 @@
     }
     .icons #imgs{
         /* background-color: aqua; */
-        width: 90px;
-        height: 60px;
+        width: 60px;
+        height: 50px;
         position: relative;
-        top: 120%;
+        top: 70%;
+       
     }
     .case{
         height: 500px;
+    }
+
+    #contato{
+     
+        font-size: 22px;
     }
 
 }
